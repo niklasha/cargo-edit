@@ -117,3 +117,6 @@ color = ["concolor-control/auto"]
 test-external-apis = []
 vendored-openssl = ["git2/vendored-openssl"]
 vendored-libgit2 = ["git2/vendored-libgit2"]
+
+[patch.crates-io]
+openssl-sys = { git = "https://github.com/niklasha/rust-openssl.git", branch = "libressl_3_7" }
